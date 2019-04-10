@@ -1238,7 +1238,7 @@ var heroo = new Discord.RichEmbed()
 .setTimestamp(new Date())
 .setThumbnail(client.user.avatarURL)
 .setTitle('gamesarab Bot Info')
-.setURL('https://discordapp.com/api/oauth2/authorize?client_id=564410021916442644&permissions=8&scope=bot')
+.setURL('https://discordapp.com/api/oauth2/authorize?client_id=564410021916442644&permissions=0&scope=bot')
 .setAuthor(client.user.username,client.user.avatarURL)
 .addField("**البرفكس** :",`**[ ${prefix} ]**`,true)
 .addField("**السيرفرات** :","**[ "+client.guilds.size+" ]**",true)
@@ -2773,7 +2773,7 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/mdVzuU**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/s29tWFr**")
      
      
   message.channel.sendEmbed(embed);
