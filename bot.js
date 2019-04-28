@@ -3009,8 +3009,7 @@ client.on('message', message => {
                                    }
                                    });
 
-
-var prefix = "!"
+ const prefix = "!"
 
 //تجربت كود 
 
