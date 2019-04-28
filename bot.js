@@ -3010,7 +3010,7 @@ client.on('message', message => {
                                    });
 
 
-const prefix = "!"
+var prefix = "!"
 
 //تجربت كود 
 
